@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Мой первый Mini App</title>
+</head>
+<body>
+
+  <h1>Привет из Telegram 👋</h1>
+  <button id="btn">Нажми меня</button>
+
+  <script>
+    const btn = document.getElementById("btn");
+
+    btn.addEventListener("click", () => {
+      alert("Кнопка работает!");
+    });
+  </script>
+
+</body>
+</html>
